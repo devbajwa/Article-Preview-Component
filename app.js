@@ -18,9 +18,7 @@ document.addEventListener('click', function(e){
     path.setAttribute('fill', '#6E8098');
   }
 })
-//addEventListener
 
-// icon.addEventListener('click', showMe);
 
 function showMe(){
     // console.log(shareDetailsDesktop)
@@ -29,12 +27,3 @@ function showMe(){
   icon.style.background = "hsl(214, 17%, 51%)";
   path.setAttribute('fill', '#fff');
 }
-
-// document.body.addEventListener('click', hideMe);
-
-// function hideMe(e){
-//     console.log(shareDetailsDesktop)
-//     console.log(e.target)
-
-//   shareDetailsDesktop.style.opacity = '0';
-// }
